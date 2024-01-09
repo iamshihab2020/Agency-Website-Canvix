@@ -28,16 +28,65 @@ p.p1{
     letter-spacing: 0.54px;
 }
 
+p.p2{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.54px;
+}
+
 .ml{
     margin-left: auto;
 }
 
+.btn1{
+    padding: 8px 15px;
+    color:  rgba(12, 12, 12, 0.90);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.54px;
+    border-radius: 23px;
+    background: #FBFBFB;
+    border: 2px solid #FBFBFB;
+    transition: all 0.3s;
+}
+
+.btn1:hover{
+    background: transparent;
+    color: #FBFBFB;
+
+}
+
+a.navbar-brand{
+    color: #FFF;
+    font-family: 'Roboto Serif', serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+a.navbar-brand:hover{
+    color: #FFF;
+}
 
 /*=============================================
 =            Header            =
 =============================================*/
 header{
-    padding: 0 100px;
+    height: 100vh;
+    width: 100%;
+    background-image: url("./assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+header nav a.nav-link{
+    color: #fff !important; 
+    font-size: 20px;
+    font-weight: 400;
+
+
+
 }
 
 
