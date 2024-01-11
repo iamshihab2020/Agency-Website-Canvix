@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=Roboto+Serif:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900&display=swap');
 
+:{
+    --scroll-name: "Canvix"
+}
+
 *{
     font-family: 'DM Sans', sans-serif;
     margin: 0;
     bottom: 0;
     box-sizing: border-box;
+}
+html{
     scroll-behavior: smooth;
+    scroll-timeline-name: var(--scroll-name);
+
 }
 
+
+    
 h1,h2,h3,h4,h5,h6{
     font-family: 'Roboto Serif', serif;
 }
@@ -72,11 +82,13 @@ a.navbar-brand:hover{
 =            Header            =
 =============================================*/
 header{
-    height: 100vh;
+    height: 100%;
     width: 100%;
+    padding-bottom: 80px;
     background-image: url("./assets/hero-bg.png");
     background-size: cover;
     background-position: center;
+    object-fit: cover;
     
 }
 
@@ -84,11 +96,145 @@ header nav a.nav-link{
     color: #fff !important; 
     font-size: 20px;
     font-weight: 400;
+    transition: 0.3s all;
+}
+header nav a.nav-link:hover{
+    color: #64CCC5 !important;
+}
+
+header nav button.navbar-toggler,
+header nav button.navbar-toggler .navbar-toggler-icon{
+    color: #FBFBFB;
+    background-color: #FBFBFB;
+    border: #FBFBFB;
+} 
 
 
+header section.hero{
+    margin-top: 120px;
+    padding-left: 200px !important; 
+    color: #FBFBFB;
+    position: relative;
+}
+
+header section.hero .hero-left {
+    width: 55%;
+    padding-right: 30px;
+}
+
+header section.hero .hero-left img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    user-select: none;
+}
+
+header section.hero .hero-left p{
+    margin-top: 25px;
+    margin-bottom: 35px;
 
 }
 
 
+header section.hero h2 span{
+    color: #64CCC5;
+    font-family: 'Roboto Serif', serif;
+}
+
+header section.hero .hero-right{
+    border: 2px solid #64CCC5;
+    box-shadow: 0px 0px 20px 2px #64CCC5;
+    border-radius: 50%;
+    background: transparent;
+    padding: 20px;
+}
+
+header section.hero .hero-right img{    
+    /* width: 500.00px; */
+    height: 450.00px;
+    width: 100%;
+} 
+
+
 /*=====  End of Header  ======*/
+
+
+
+
+
+
+
+/*=============================================
+=            Responsive Section            =
+=============================================*/
+
+@media screen and (max-width:991px){
+
+    h2{
+        font-size: 48px;
+    }
+
+    /*----------  Header  ----------*/
+    header{
+        height: 100%;
+        padding-bottom: 50px;
+    }
+
+    header section.hero{
+        margin-top: 40px;
+        padding: 0 100px !important;
+    }
+
+    header section.hero .hero-left {
+        text-align:  center;
+        width: 100%;
+        padding-right: 0px;
+        margin-bottom: 80px;
+    }
+
+    header section.hero .hero-left p{
+        padding: 0;
+    }
+
+    header section.hero .hero-left img{
+        display: none;
+    }
+
+    /*----------  Header  End----------*/
+
+
+}
+
+@media screen and (max-width:576px){
+    
+    h2{
+        font-size: 36px;
+    }
+
+    /*----------  Header ----------*/
+    header section.hero{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 30px !important;
+    }
+
+
+    header section.hero .hero-right img{   
+        height: 100%; 
+    }
+
+    /*----------  HeaderEnd ----------*/
+    
+    
+}
+
+
+
+
+
+
+
+
+/*=====  End of Responsive Section  ======*/
 
