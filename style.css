@@ -180,6 +180,9 @@ section.service h2{
     padding: 0 270px;
 }
 
+section.service .allServiceCard{
+
+}
 
 .service .card{
     border: none;
@@ -187,6 +190,7 @@ section.service h2{
     background: #F4F4F4;
     transition: 0.3s all;
     color: #0C0C0C;
+    height: fit-content;
 }
 
 .service .card:hover{
