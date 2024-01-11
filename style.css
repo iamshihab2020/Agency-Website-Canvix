@@ -24,6 +24,7 @@ h2{
 h4{
     font-size: 30px;
     font-weight: 600;
+    color: #64CCC5;
 }
 
 p.p1{
@@ -151,7 +152,7 @@ header section.hero .hero-right img{
 
 header .bottom {
     margin-left: 200px;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 header .bottom h5{
@@ -164,6 +165,70 @@ header .bottom h5{
 
 /*=====  End of Header  ======*/
 
+
+
+
+/*=============================================
+=            Main            =
+=============================================*/
+
+
+/*----------  Service  ----------*/
+section.service h2{
+    padding: 0 270px;
+}
+
+
+.service .card{
+    border: none;
+    border-radius: 20px;
+    background: #F4F4F4;
+    transition: 0.3s all;
+    color: #0C0C0C;
+}
+
+.service .card:hover{
+    background: #0C0C0C;
+    color: #F4F4F4;
+}
+
+.service .card:hover .card-body h6{
+    color: #F4F4F4 !important;
+}
+
+.service .card:hover .card-body p{
+    color: #F4F4F4 ip !important;
+}
+
+.service .card .card-body i{
+    padding: 25px;
+    background: #0C0C0C;
+    color: #FBFBFB;
+    border-radius: 50px;
+    font-size: 24px;
+}
+
+.service .card:hover .card-body i{
+    background: #FBFBFB;
+    color: #292556;
+}
+
+
+.service .card h6{
+    color: #0C0C0C;
+    font-family: 'Roboto Serif', serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 65px;
+}
+
+/*----------  Service End  ----------*/
+
+
+
+
+/*=====  End of Main  ======*/
 
 
 
@@ -220,6 +285,20 @@ header .bottom h5{
 
     /*----------  Header  End----------*/
 
+    
+    /*----------  Main  ----------*/
+    
+    /*----------  Service  ----------*/
+    section.service h2{
+        padding: 0px;
+    }
+    /*----------  Service End  ----------*/
+
+
+    /*----------  Main End  ----------*/
+    
+    
+
 
 }
 
@@ -227,6 +306,9 @@ header .bottom h5{
     
     h2{
         font-size: 36px;
+    }
+    h4{
+        font-size: 24px;
     }
 
     /*----------  Header ----------*/
@@ -236,7 +318,6 @@ header .bottom h5{
         align-items: center;
         padding: 0 30px !important;
     }
-
 
     header section.hero .hero-right img{   
         height: 100%; 
