@@ -73,6 +73,8 @@ a.navbar-brand:hover{
     color: #FFF;
 }
 
+
+
 /*=============================================
 =            Header            =
 =============================================*/
@@ -224,6 +226,31 @@ section.service h2{
 }
 
 /*----------  Service End  ----------*/
+
+
+
+
+/*----------  About Us  ----------*/
+section.about{
+    background: #0C0C0C;
+    color: #F4F4F4;
+}
+
+section.about .about-right .about-right-score{
+    /* padding-right: 300px; */
+    width: 70%;
+}
+section.about .about-right .about-right-score h3{
+    color: #64CCC5;
+    font-family: 'Roboto Serif', serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+
+
+
+/*----------  About Us End  ----------*/
 
 
 
