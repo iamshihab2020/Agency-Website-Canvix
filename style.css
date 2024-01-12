@@ -180,9 +180,6 @@ section.service h2{
     padding: 0 270px;
 }
 
-section.service .allServiceCard{
-
-}
 
 .service .card{
     border: none;
@@ -251,10 +248,52 @@ section.about .about-right .about-right-score h3{
     font-weight: 600;
 }
 
-
-
-
 /*----------  About Us End  ----------*/
+
+
+
+/*----------  Process  ----------*/
+
+section.process .pro-top{
+    padding: 0 270px;
+}
+
+section.process .pro-bottom .card{
+    border-radius: 30px !important;
+}
+
+section.process .pro-bottom .col legend{
+    top: -24px;
+    left: 0%;
+    /* transform: translate(-50%, -50%); */
+    font-family: 'Roboto Serif', serif;
+    font-size: 24px;
+    font-weight: 600;
+    z-index: 1000;
+    background: #ffff;
+    width: fit-content;
+    object-fit: contain;
+    height: fit-content;
+    padding: 0 60px;
+    
+}
+
+section.process .pro-bottom .col legend i{
+    background: #0C0C0CE5;
+    color: #F4F4F4;
+    /* padding: 15px 20px; */
+    border-radius: 200px;
+    margin-right: 8px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*----------  Process End  ----------*/
+
 
 
 
@@ -325,6 +364,17 @@ section.about .about-right .about-right-score h3{
     }
     /*----------  Service End  ----------*/
 
+    
+    /*----------  Process   ----------*/
+    section.process .pro-top{
+        padding: 0 50px;
+    }
+    section.process .pro-bottom .col{
+        margin-top: 30px;
+    }
+    /*----------  Process End  ----------*/
+    
+    
 
     /*----------  Main End  ----------*/
     
@@ -355,6 +405,23 @@ section.about .about-right .about-right-score h3{
     }
 
     /*----------  HeaderEnd ----------*/
+    
+
+    
+    /*----------  Main  ----------*/
+    
+    /*----------  Process   ----------*/
+    section.process .pro-top{
+        padding: 0 50px;
+    }
+    section.process .pro-bottom .col{
+        margin-top: 50px;
+    }
+    /*----------  Process End  ----------*/
+    
+    
+    /*----------  Main End  ----------*/
+    
     
     
 }
