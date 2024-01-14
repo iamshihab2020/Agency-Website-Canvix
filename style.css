@@ -302,9 +302,73 @@ section.showcase .card{
     border: none;
 }
 
-
-
 /*----------  Showcase End  ----------*/
+
+
+
+/*----------  Testimonial   ----------*/
+section.testimonial .testbox{
+    background: #F4F4F4;
+    color:  #0C0C0C;
+    font-family: 'Roboto Serif', serif;
+    border-radius: 20px;
+
+}
+
+section.testimonial .testbox img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    object-fit: cover;
+}
+
+
+section.testimonial .testbox p#quote{
+    background: #F4F4F4;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 35px;
+    font-family: 'Roboto Serif', serif;
+
+}
+
+section.testimonial .testbox p#name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 35px;
+    font-family: 'Roboto Serif', serif;
+
+}
+
+section.testimonial .testbox p#position{
+    color:  rgba(12, 12, 12, 0.90);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+    margin-top: -10px;
+}
+
+.btn-ctrl button{
+    background: transparent;
+    color: #0C0C0C;
+    padding: 14px 20px;
+    border-radius: 200px;
+}
+.btn-ctrl button i{
+    font-size:  15px;
+}
+
+.btn-ctrl button:hover{
+    background: #0C0C0C;
+    color: #F4F4F4;
+    padding: 14px 20px;
+    border-radius: 200px;
+}
+
+
+/*----------  Testimonial End  ----------*/
+
 
 
 
@@ -438,7 +502,16 @@ section.showcase .card{
     }
     /*----------  Showcase End  ----------*/
 
-    
+    /* Testimonial  */
+    section.testimonial .testbox p#quote{
+        font-size: 20px;
+    }
+
+    section.testimonial .testbox p#name{
+        font-size: 18px;
+
+    }
+    /* Testimonial End */
     /*----------  Main End  ----------*/
     
     
