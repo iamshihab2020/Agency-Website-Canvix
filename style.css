@@ -297,6 +297,18 @@ section.process .pro-bottom .col legend i{
 
 
 
+/*----------  Showcase  ----------*/
+section.showcase .card{
+    border: none;
+}
+
+
+
+/*----------  Showcase End  ----------*/
+
+
+
+
 
 /*=====  End of Main  ======*/
 
@@ -404,7 +416,7 @@ section.process .pro-bottom .col legend i{
         height: 100%; 
     }
 
-    /*----------  HeaderEnd ----------*/
+    /*----------  Header End ----------*/
     
 
     
@@ -419,6 +431,13 @@ section.process .pro-bottom .col legend i{
     }
     /*----------  Process End  ----------*/
     
+    
+    /*----------  Showcase  ----------*/
+    section.showcase {
+        text-align: center;
+    }
+    /*----------  Showcase End  ----------*/
+
     
     /*----------  Main End  ----------*/
     
